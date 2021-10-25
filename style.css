@@ -1,0 +1,54 @@
+body {
+   width: 100vw;
+   min-height: 100vh;
+   margin: 0;
+   background: black;
+   overflow: hidden;
+   font-family: 'Russo One', sans-serif;
+}
+
+#content {
+   color: whitesmoke;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: calc(100vw - 4rem);
+   min-height: calc(100vh - 4rem);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 2rem;
+}
+
+h1 {
+   padding-top: 10vh;
+   font-family: 'Russo One', sans-serif;
+}
+
+.countdown {
+   font-family: 'Oxanium', cursive;
+}
+
+.digit {
+   color: #fff;
+   font-size: 8vw;
+}
+
+.colon {
+   color: #fff;
+   font-size: 4vw;
+}
+
+.time {
+   padding: 1vw;
+   font-size: 1vw;
+}
+
+@media(max-width:992px) {
+   .time {
+      padding: 1vw;
+      font-size: 0.7rem;
+   }
+}
